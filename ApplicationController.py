@@ -6,6 +6,7 @@ import ctypes
 from ctypes import cast, POINTER
 from comtypes import CLSCTX_ALL
 from pycaw.pycaw import AudioUtilities, IAudioEndpointVolume, ISimpleAudioVolume
+from pynput.keyboard import Key, Controller
 import serial, pynotify
 import json
 
@@ -14,7 +15,8 @@ json_location = os.path.realpath(os.path.join(os.getcwd(), "./ApplicationControl
 
 def main():
   init()
-  listen_for_serial()
+  #listen_for_serial()
+  write_macro("lick my taint")
 
 def listen_for_serial():
   ser = serial.Serial('COM3', 9600)
@@ -60,6 +62,11 @@ def open_website(url):
 
 def open_application(filePath):
   subprocess.call(filePath)
+
+def write_macro(text):
+  time.sleep(3)
+  keyboard = Controller()
+  keyboard.type(text)
 
 # Gets the pids associated with the active window
 def get_pids_from_active_window():
