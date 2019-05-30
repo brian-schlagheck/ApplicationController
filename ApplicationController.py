@@ -16,7 +16,7 @@ json_location = os.path.realpath(os.path.join(os.getcwd(), "./ApplicationControl
 def main():
   init()
   #listen_for_serial()
-  write_macro("lick my taint")
+  write_macro("lick my paint")
 
 def listen_for_serial():
   ser = serial.Serial('COM3', 9600)
