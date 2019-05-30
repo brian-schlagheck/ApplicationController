@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="index.css">
+    <script src="indexFE.js"></script>
+    <meta charset="UTF-8">
+    <title>Application Controller</title>
+  </head>
+  <body style="background-color: rgb(56, 54, 54)">
+    <h1 style="text-align: center" class="white-text">Press buttons below to start programming your controller</h1>
+    <div class="button-line">
+        <button onclick=buttonClick(this) class="button-led button-blue" id="button-1">Button 1</button>
+        <button onclick=buttonClick(this) class="button-led button-red" id="button-2">Button 2</button>
+        <button onclick=buttonClick(this) class="button-led button-aqua" id="button-3">Button 3</button>
+        <button onclick=buttonClick(this) class="button-led button-yellow" id="button-4">Button 4</button>
+        <button onclick=buttonClick(this) class="button-led button-white" id="button-5">Button 5</button>
+    </div>
+    <br>
+    <div class="button-line">
+            <button onclick=buttonClick(this) class="button-led button-blue" id="button-6">Button 6</button>
+            <button onclick=buttonClick(this) class="button-led button-red" id="button-7">Button 7</button>
+            <button onclick=buttonClick(this) class="button-led button-aqua" id="button-8">Button 8</button>
+            <button onclick=buttonClick(this) class="button-led button-yellow" id="button-9">Button 9</button>
+            <button onclick=buttonClick(this) class="button-led button-white" id="button-10">Button 10</button>
+    </div>
+    <br>
+    <div class="form-area"><button onclick=addWebsite() id="btn-add-website" class="toggle-button">Website</button><button onclick=addExecutable() id="btn-add-exe" class="toggle-button">Executable</button>
+    <input placeholder="paste url..." id="website-location" style="display:none"><button onclick=addWebsiteToList() id="btn-submit-website" style="display: none">Add</button>
+    <br>
+    <h3 class="white-text">Operations - Click to remove</h3>
+    <ul id="operation-list">
+
+    </ul>
+    <button onclick=submitForm() id="btn-submit">Done</button>
+    </div>
+  </body>
+</html>
+
+
+<script>
+    
+    
+
+</script>

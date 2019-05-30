@@ -1,0 +1,150 @@
+.button-led {
+    border: none;
+    color: black;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-style: italic
+}
+
+.white-text {
+    color: white
+}
+
+.button-led:hover {
+    filter: brightness(85%);
+    cursor: pointer;
+  }
+
+  .button-led:active {
+    filter: brightness(100%);
+  }
+
+.button-yellow {
+    background-color: yellow;
+}
+
+.button-blue {
+    background-color: blue;
+    color: white
+}
+
+
+.button-red {
+    background-color: red;
+    color: white
+}
+
+.button-aqua {
+    background-color: green;
+    color: white;
+}
+
+.button-white {
+    background-color: white;
+}
+
+.button-line {
+    width: 100%;
+    white-space: nowrap;
+    text-align: center
+}
+
+.toggle-button {
+    background-color: white; /* Green */
+    border: 1px solid black;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    width: 150px;
+}
+
+#btn-submit-website {
+    background-color: #4CAF50; /* Green */
+    border: 1px solid black;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    width: 150px;
+}
+
+.toggle-button:hover {
+    cursor: pointer;
+    filter: brightness(85%)
+}
+
+#website-location {
+    background-color: white; /* Green */
+    border: 1px solid black;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    width: 300px;
+}
+
+#exe-browse {
+    background-color: white; /* Green */
+    border: 1px solid black;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    width: 150px;
+}
+
+.form-area {
+    text-align: center
+}
+
+#btn-submit {
+    background-color: #4CAF50; /* Green */
+    border: 1px solid black;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    width: 300px;
+}
+
+#btn-submit:hover {
+    filter: brightness(85%);
+    cursor: pointer;
+}
+
+#btn-submit:active {
+    filter: brightness(100%);
+}
+
+.removable {
+    color: white;
+    font-style: italic;
+    list-style-type: none;
+}
+
+.removable:hover {
+    background-color: #a94442;
+    color: white;
+    cursor: pointer;
+}
