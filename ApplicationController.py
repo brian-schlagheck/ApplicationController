@@ -34,7 +34,6 @@ def process_cmd(command_raw):
   # button
   if (command_type == "1"):
     parse_json(command_val)
-    open_rocket_leage()
   # System Volume
   elif command_type == "2": 
     print("Should change master vol")
